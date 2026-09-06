@@ -3888,13 +3888,52 @@
       "skill_created": true,
       "skill_name": "ia/headroom-context-compression",
       "skill_version": "2.0.0"
+    },
+    "ChromeDevTools/chrome-devtools-mcp": {
+      "explored_at": "2026-09-06T16:00:57.843798+00:00",
+      "category": "tool",
+      "stars": 51131,
+      "language": "TypeScript",
+      "skill_angles": [
+        "pattern-real-time"
+      ],
+      "skill_created": true,
+      "skill": "mcp/chrome-devtools-mcp",
+      "skill_version": "2.0.0",
+      "skill_audited": "2026-09-06",
+      "notes": "Servidor MCP oficial de Chrome DevTools (Google, 51K star). Skill creado verificado contra README + docs/tool-reference.md + docs/advanced-usage.md."
+    },
+    "vercel-labs/agent-browser": {
+      "explored_at": "2026-09-06T16:01:04.066242+00:00",
+      "category": "tool",
+      "stars": 42047,
+      "language": "Rust",
+      "skill_angles": [
+        "ci-cd-pipeline-patterns"
+      ],
+      "skill_created": true,
+      "skill": "autonomous-ai-agents/agent-browser",
+      "skill_version": "2.0.0",
+      "skill_audited": "2026-09-06",
+      "notes": "CLI Rust de automatizacion de navegador para agentes (Vercel Labs, 42K star). Skill creado verificado contra README completo (snapshot+refs, batch, sessions, MCP, WebMCP)."
+    },
+    "rarf/hermes-quota-plugin": {
+      "explored_at": "2026-09-06T16:01:10.145058+00:00",
+      "category": "skip",
+      "stars": 61,
+      "language": "Python",
+      "skill_angles": [
+        "pattern-real-time"
+      ],
+      "skill_created": false,
+      "skip_reason": "Plugin de terceros para la barra de quota de Hermes Desktop (61 star). Sin patrones reutilizables mas alla de lo que ya cubre autonomous-ai-agents/hermes-agent (references/desktop-plugins.md + plugins). Su pitfall de symlinks por perfil es especifico de su install.sh."
     }
   },
-  "last_run": "2026-09-06T10:00:57.135339+00:00",
+  "last_run": "2026-09-06T16:01:11.146057+00:00",
   "total_skills_created": 10,
   "stats": {
-    "runs": 57,
-    "repos_explored": 300,
+    "runs": 58,
+    "repos_explored": 303,
     "skills_generated": 9,
     "last_batch": 6
   },
