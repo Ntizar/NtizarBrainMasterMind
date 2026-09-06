@@ -3850,13 +3850,51 @@
       "skill_created": true,
       "skill_name": "threejs-agent-game-skills",
       "skill_created_at": "2026-09-05T23:03:55.496448"
+    },
+    "obra/superpowers": {
+      "explored_at": "2026-09-06T10:00:43.830665+00:00",
+      "category": "upgrade",
+      "stars": 282211,
+      "language": "Shell",
+      "skill_angles": [
+        "crm-erp-patterns"
+      ],
+      "skill_created": true,
+      "covered_by": "addyosmani-agent-skills",
+      "skill_name": "addyosmani-agent-skills",
+      "skip_reason": "dedup: absorbido como comparativa en addyosmani-agent-skills (superpowers ejecutable via hermes plugins install; misma liga tematica)"
+    },
+    "Graphify-Labs/graphify": {
+      "explored_at": "2026-09-06T10:00:49.970846+00:00",
+      "category": "skill",
+      "stars": 115170,
+      "language": "Python",
+      "skill_angles": [
+        "voice-ai-integration"
+      ],
+      "skill_created": true,
+      "skill_name": "ia/graphify-codebase-graph",
+      "skill_version": "2.0.0"
+    },
+    "headroomlabs-ai/headroom": {
+      "explored_at": "2026-09-06T10:00:56.134419+00:00",
+      "category": "skill",
+      "stars": 69078,
+      "language": "Python",
+      "skill_angles": [
+        "ci-cd-pipeline-patterns",
+        "realtime-dashboard"
+      ],
+      "skill_created": true,
+      "skill_name": "ia/headroom-context-compression",
+      "skill_version": "2.0.0"
     }
   },
-  "last_run": "2026-09-05T21:01:57.617749+00:00",
+  "last_run": "2026-09-06T10:00:57.135339+00:00",
   "total_skills_created": 10,
   "stats": {
-    "runs": 56,
-    "repos_explored": 297,
+    "runs": 57,
+    "repos_explored": 300,
     "skills_generated": 9,
     "last_batch": 6
   },
